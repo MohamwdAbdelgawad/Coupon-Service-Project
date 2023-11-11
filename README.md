@@ -15,8 +15,8 @@ The Coupon Service API is designed to simplify coupon management in e-commerce o
 
 ## Technology
 
-- **Spring Boot:** A popular Java-based framework for building robust and scalable applications.
-- **Spring Data JPA:** Simplifies database access and management using the Java Persistence API (JPA).
-- **MySQL Database:** A reliable relational database for storing coupon and usage information.
-- **RESTful API:** The API follows REST principles, providing a simple and effective way to interact with the service.
-- **MapStruct:** Used for efficient and customizable mapping between Java beans.
+- **Spring Boot:**
+- **Spring Data JPA:**
+- **MySQL Database:** 
+- **RESTful API:** 
+- **MapStruct:**
