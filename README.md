@@ -1,30 +1,22 @@
-# Coupon-Service-Project
 # Coupon Service API
 
 The Coupon Service API provides endpoints to manage and interact with coupons, including retrieving coupon details, checking coupon validity, using coupons, and retrieving coupon usage history.
 
-## Table of Contents
+## Overview
 
-- [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-- [API Endpoints](#api-endpoints)
-  - [Get Coupon by Code](#get-coupon-by-code)
-  - [Check Coupon Validity](#check-coupon-validity)
-  - [Use Coupon](#use-coupon)
-  - [Get Coupon History](#get-coupon-history)
-- [Usage Examples](#usage-examples)
-- [Contributing](#contributing)
-- [License](#license)
+The Coupon Service API is designed to simplify coupon management in e-commerce or any system that requires coupon usage tracking. It allows users to retrieve coupon details, check coupon validity, and keep a record of coupon usage history.
 
-## Getting Started
+## Features
 
-### Prerequisites
+- **Retrieve Coupon Details:** Get detailed information about a coupon using its unique code.
+- **Check Coupon Validity:** Verify if a coupon is valid for use.
+- **Use Coupon:** Mark a coupon as used, associating it with a specific order and date.
+- **Get Coupon History:** Retrieve a log of all coupon usages, including order ID and usage date.
 
-Make sure you have the following installed:
+## Technology
 
-- [Java](https://www.oracle.com/java/technologies/javase-downloads.html)
-- [Spring Boot](https://spring.io/projects/spring-boot)
-- [Your Database System]
-
-### Installation
+- **Spring Boot:** A popular Java-based framework for building robust and scalable applications.
+- **Spring Data JPA:** Simplifies database access and management using the Java Persistence API (JPA).
+- **MySQL Database:** A reliable relational database for storing coupon and usage information.
+- **RESTful API:** The API follows REST principles, providing a simple and effective way to interact with the service.
+- **MapStruct:** Used for efficient and customizable mapping between Java beans.
